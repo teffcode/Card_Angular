@@ -1,0 +1,7 @@
+{
+  "name": "cards-navigation",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
