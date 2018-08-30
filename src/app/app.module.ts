@@ -11,13 +11,20 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+// Components
+import { TarjetaPCuentaComponent } from '../components/tarjeta-p-cuenta/tarjeta-p-cuenta';
+
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    TarjetaPCuentaComponent
+  ],
+  exports: [
+    TarjetaPCuentaComponent
   ],
   imports: [
     BrowserModule,
